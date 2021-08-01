@@ -27,7 +27,7 @@ body{
     background-color: var(--primary-color);
     padding: 8rem;
     width: 100%;
-    height:100vh;
+    height: 100vh;
 }
 
 .navbar{

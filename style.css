@@ -305,7 +305,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   html {
     font-size: 40%;
   }
@@ -331,13 +331,14 @@ body {
     margin: 1rem 0;
     height: 20rem;
     width: 20rem;
+    padding: 2rem;
   }
   .card__logo {
     width: 6rem;
     height: 6rem;
   }
   .card__header {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .section-about__text {
     width: 100%;

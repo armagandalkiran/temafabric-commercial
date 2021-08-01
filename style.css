@@ -349,4 +349,11 @@ body {
   }
 }
 
+@media (max-width: 376px) {
+    .card{
+        width:20rem;
+        height:20rem;
+    }
+}
+
 /* media queries end */

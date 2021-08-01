@@ -24,6 +24,7 @@ body{
     box-sizing: border-box;
 }
 
+/* header section */
 .section-header{
     background-color: var(--primary-color);
     padding: 8rem;
@@ -98,6 +99,10 @@ body{
     color:#fff;
 }
 
+/* header section end*/
+
+
+/* features section */
 .section-features{
     background-color:var(--secondary-color);
     height:100vh;
@@ -147,19 +152,48 @@ body{
     color:var(--card-description);
 }
 
+/* features section end */
 
+/* about section*/
 
+.section-about{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+}
+
+.section-about__text{
+    width:50%;
+}
+
+.section-about__text h2{
+    font-size:5rem;
+    color:var(--primary-color);
+    margin-bottom:4rem;
+}
+
+.section-about__text p{
+    font-size:2rem;
+    color:var(--card-description);
+
+}
+
+/* about section end*/
+
+/* footer section*/
 .footer{
     background-color:var(--secondary-color);
 }
+
 .footer__navigation{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
+
 .footer__header{
     font-size: 3rem;
     font-weight: 600;
@@ -167,31 +201,38 @@ body{
     text-decoration:underline;
     text-decoration-thickness: 2px;
     text-decoration-color: #fff;
+    margin-top:5rem;
 }
+
 .footer__list{
     list-style:none;
     color:#fff;
     font-size: 2rem;
     font-weight: 100;
 }
+
 .footer__item{
     margin-bottom:1.5rem;
     letter-spacing: .5px;
 
 }
+
 .footer__item:nth-child(1){
     font-weight: 400;
     margin-top: 1rem;
 }
+
 .footer__social-media-icons{
-    margin: 2rem;
+    margin: 2rem 0 4rem 0;
 }
+
 .icon{
     margin:0 1.5rem ;
     transition: all .3s ease-out;
 }
+
 .icon:hover img{
     transform: scale(1.15);
 }
 
-
+/* footer section end*/

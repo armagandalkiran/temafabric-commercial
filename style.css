@@ -101,7 +101,7 @@ body {
 
 /* header section end*/
 
-/* features section */
+/* features section 
 .section-features {
   background-color: var(--secondary-color);
   height: 100vh;
@@ -150,7 +150,7 @@ body {
   text-align: center;
   color: var(--card-description);
 }
-
+*/
 /* features section end */
 
 /* about section*/
@@ -347,13 +347,6 @@ body {
   .section-about {
     text-align: center;
   }
-}
-
-@media (max-width: 376px) {
-    .card{
-        width:20rem;
-        height:20rem;
-    }
 }
 
 /* media queries end */

@@ -347,12 +347,6 @@ body {
   .section-about {
     text-align: center;
   }
-  .section-features{
-    height:initial; 
-  }
-  .row{
-    margin:3rem 0;
-  }
 }
 
 /* media queries end */

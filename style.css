@@ -236,3 +236,18 @@ body{
 }
 
 /* footer section end*/
+
+/* media queries */
+@media (max-width: 1295px){
+
+}
+
+@media (max-width: 900px){
+
+}
+
+@media (max-width: 600px){
+
+}
+
+/* media queries end */

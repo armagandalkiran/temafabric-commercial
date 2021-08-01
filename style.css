@@ -239,7 +239,6 @@ body{
 
 /* media queries */
 @media (max-width: 1295px){
-
 }
 
 @media (max-width: 900px){
@@ -247,7 +246,7 @@ body{
 }
 
 @media (max-width: 600px){
-
+    
 }
 
 /* media queries end */

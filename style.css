@@ -17,6 +17,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 @media(max-width: 1295px){
@@ -24,8 +25,7 @@ html{
         font-size: 56.25%;
     }
 }
-
-@media (max-width: 900px){
+@media (max-width: 1200px){
     html{
         font-size: 50%;
     }
@@ -84,25 +84,30 @@ body{
 .header-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
 }
 
-.header{
-    max-width: 60%;
+.header__text-box{
+    width: 100%;
+}
+.header__img-box img{
+    width:50rem;
+    height: 50rem;
 }
 
 .heading-primary{
     display: flex;
     flex-direction: column;
-    
+    max-width: 90%;
 }
 
 .heading-primary--main{
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight:800;
     color:#fff;
     letter-spacing: 3px;  
+    
 }
 
 .heading-primary--sub{
@@ -256,11 +261,16 @@ body{
 /* footer section end*/
 
 /* media queries */
+
+@media (max-width: 1295px){
+}
+
 @media(max-width: 1573px){
     .card{
         width:35rem;
         height:35rem;
     }
+
 
     .card__logo{
         width:10rem;
@@ -305,14 +315,62 @@ body{
     }
 }
 
+@media (max-width: 1200px){
+    .header__img-box{
+       margin-bottom: 2rem;
+    }
+    .header__img-box img{
+        width: 35rem;
+        height: 35rem;
+    }
+    .header-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .heading-primary{
+        max-width: 100%;
+    }
+    .heading-primary--main{
+       font-size: 6rem;
+    }
+}
+
 @media (max-width: 900px){
 
 }
 
 @media (max-width: 600px){
+    .section-header{
+        height: auto;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar__heading{
+        margin-bottom: 3rem;
+    }
+    .header__img-box{
+        margin-bottom: 5rem;
+    }
+
     .section-about__text{
         width:100%;
+
     }
+    .heading-primary{
+        text-align: center;
+        max-width: 100%;
+    }
+    .heading-primary--main{
+        font-size: 4rem;
+        margin-bottom: 1.5rem;  
+    }
+    .section-about{
+        text-align: center;
+    }
+
 }
 
 /* media queries end */

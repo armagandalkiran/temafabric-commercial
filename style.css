@@ -356,6 +356,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .card{
+    width: 20rem;
+  }
 
   .section-header {
     height: auto;

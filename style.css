@@ -173,6 +173,9 @@ body {
 .card__header {
   margin-bottom: 2rem;
 }
+.card__logo{
+  width: 35%;
+}
 
 /* features section end */
 
@@ -347,16 +350,18 @@ body {
 
   }
   .card{
-    margin:2rem 0;
-    
-
+    margin:3rem 0 3rem 0;
   }
 
 }
 
 @media (max-width: 768px) {
+
   .section-header {
     height: auto;
+  }
+  .section-features{
+    padding: 5rem;
   }
   .navbar {
     flex-direction: column;

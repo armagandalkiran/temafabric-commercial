@@ -146,7 +146,7 @@ body {
 .section-features {
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content:space-around;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
   align-items: center;
   background-color: var(--secondary-color);
@@ -173,7 +173,7 @@ body {
 .card__header {
   margin-bottom: 2rem;
 }
-.card__logo{
+.card__logo {
   width: 35%;
 }
 
@@ -264,54 +264,7 @@ body {
 
 /* media queries */
 
-/* @media (max-width: 1573px) {
-  .card {
-    width: 35rem;
-    height: 35rem;
-  }
-
-  .card__logo {
-    width: 10rem;
-    height: 10rem;
-    margin-bottom: 2rem;
-  }
-
-  .card__header {
-    margin-bottom: 2rem;
-    font-weight: 800;
-    font-size: 2rem;
-    color: var(--card-header);
-  }
-
-  .card-description__text {
-    font-weight: 300;
-    font-size: 1.2rem;
-    text-align: center;
-    color: var(--card-description);
-  }
-} */
-
-/* @media (max-width: 1295px) {
-  html {
-    font-size: 56.25%;
-  }
-
-  .card {
-    margin: 1rem 0;
-    height: 28rem;
-    width: 28rem;
-  }
-  .card__logo {
-    width: 8rem;
-    height: 8rem;
-  }
-  .card__header {
-    font-size: 1.4rem;
-  }
-} */
-
-
-  @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   html {
     font-size: 50%;
   }
@@ -340,28 +293,25 @@ body {
   }
 }
 
-@media(max-width:900px) {
+@media (max-width: 900px) {
   html {
     font-size: 40%;
-
   }
-  .section-features {
-    flex-direction: column;
-    height: auto;
-
-  }
-  .card{
-    margin:3rem 2rem;
-  }
-
-}
-
-@media (max-width: 768px) {
 
   .section-header {
     height: auto;
   }
-  .section-features{
+  .section-features {
+    flex-direction: column;
+    height: auto;
+  }
+  .card {
+    margin: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-features {
     padding: 5rem;
   }
   .navbar {
@@ -373,19 +323,6 @@ body {
   .header__img-box {
     margin-bottom: 5rem;
   }
-  /* .card {
-    margin: 1rem 0;
-    height: 20rem;
-    width: 20rem;
-    padding: 2rem;
-  }
-  .card__logo {
-    width: 6rem;
-    height: 6rem;
-  }
-  .card__header {
-    font-size: 1.4rem;
-  } */
   .section-about__text {
     width: 100%;
   }
@@ -401,8 +338,3 @@ body {
     text-align: center;
   }
 }
-
-
-/* media queries end */
-
-

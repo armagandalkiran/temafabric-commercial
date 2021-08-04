@@ -248,16 +248,42 @@ body {
 }
 
 .footer__social-media-icons {
+  display:flex;
+  align-items: center;
   margin: 2rem 0 4rem 0;
 }
 
-.icon {
-  margin: 0 1.5rem;
-  transition: all 0.3s ease-out;
+.footer__name-logo-seperator{
+  height:4rem;
+  border:0.1rem solid #fff;
+  background-color: #fff;
+  margin-left:3rem;
 }
 
-.icon:hover img {
-  transform: scale(1.15);
+.footer__social-media-link-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height:6rem;
+}
+
+.footer__social-media-link{
+  text-decoration: none;
+  color:#fff;
+  font-size:1.8rem;
+  margin-left:3rem;
+}
+
+.footer__social-media-link:hover{
+  transition: 0.5s;
+  color:var(--card-description);
+
+}
+
+.footer__social-media-instagram-icon{
+  height:6rem;
+  width:6rem;
 }
 
 /* footer section end*/

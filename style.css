@@ -251,18 +251,36 @@ body{
 }
 
 .footer__social-media-icons{
+  display: flex;
     margin: 2rem 0 4rem 0;
 }
 
 .icon{
     margin:0 1.5rem ;
-    transition: all .3s ease-out;
 }
 
 .icon:hover img{
     transform: scale(1.15);
 }
 
+.instagram-icon{
+  display: flex;
+  align-items: center;
+}
+.instagram-icon>ul{
+  color:#fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  list-style: none;
+  visibility: hidden;
+  width: 0;
+ 
+}
+.instagram-icon:hover ul{
+  visibility: visible;
+  width: 100%;
+  cursor: pointer;
+}
 /* footer section end*/
 
 /* media queries */

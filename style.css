@@ -162,7 +162,7 @@ body{
     color:var(--card-header);
 }
 
-.card-description__text{
+.card__description-text{
     font-weight: 300;
     font-size: 1.9rem;
     text-align: center;
